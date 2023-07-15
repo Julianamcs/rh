@@ -2,7 +2,7 @@
     <img src="https://github.com/Julianamcs/rh/blob/main/src/br/com/alura/rh/img/Solid2.png" width="600px"></h1>
 </div>
 
-## PRINCÍPIOS D6 SOLID
+## PRINCÍPIOS DO SOLID
 
     • Os princípios SOLID são cinco princípios do design de classes orientado a objetos. Eles são um conjunto de regras e práticas 
       recomendadas a serem seguidas na criação de uma estrutura de classe. Então cada um desses princípios formam o SOLID que são 
@@ -12,7 +12,7 @@
 #### :bookmark_tabs:S - Single Responsibility Principle (Princípio da responsabilidade única):
       
     🎯• Uma classe deve ter um, e somente um, motivo para mudar. Esse princípio declara que uma classe deve ser especializada em um único
-      assunto e possuir apenas uma responsabilidade dentro do software, como a classe deve ter uma única tarefa ou ação para executar. <br/>
+      assunto e possuir apenas uma responsabilidade dentro do software, como a classe deve ter uma única tarefa ou ação para executar.
        
     🚨 Violação do Single Responsibility Principle pode gerar alguns problemas:
       - Falta de coesão: uma classe não deve assumir responsabilidades que não são suas;
@@ -22,8 +22,8 @@
 
 #### :bookmark_tabs:O - Open-Closed Principle (Princípio aberto/fechado):
 
-    🎯• Classes, objetos ou entidades devem estar abertos para extensão, mas fechados para modificação. Modificação significa alterar o
-      código de uma classes, objetos ou entidades existente, enquanto extensão significa, adicionar novas funcionalidades, quando 
+    🎯• Classes, objetos ou entidades devem estar abertos para extensão, mas fechados para modificação. Modificação significa alterar 
+      o código de uma classes, objetos ou entidades existente, enquanto extensão significa, adicionar novas funcionalidades, quando 
       novos comportamentos e recursos precisam ser adicionados no software, devemos estender e não alterar o código fonte original. 
       O princípio de aberto/fechado diz que as classes devem estar abertas para extensão, mas fechadas para modificação. 
 
@@ -32,11 +32,11 @@
 
 #### :bookmark_tabs:L - Liskov Substitution Principle (Princípio da substituição de Liskov):
       
-    🎯 • Princípio da substituição de Liskov, onde uma classe derivada deve ser substituível por sua classe base. Isso quer dizer que, se 
+    🎯• Princípio da substituição de Liskov, onde uma classe derivada deve ser substituível por sua classe base. Isso quer dizer que, se 
       a classe B for uma subclasse da classe A, devemos poder passar um objeto da classe B para qualquer método que espere um objeto da
       classe A e o método não deverá produzir resultados estranhos, nesse caso.
 
-    🎯 • Esse é o comportamento esperado, pois, quando usamos a herança, levamos em conta que a classe filha herda tudo o que a superclasse
+    🎯• Esse é o comportamento esperado, pois, quando usamos a herança, levamos em conta que a classe filha herda tudo o que a superclasse
       tem. A classe filha estende o comportamento, mas nunca o reduz.
        
     🚨 Violação do Liskov Substitution Principl (LSP):
@@ -56,7 +56,7 @@
 
 #### :bookmark_tabs:D - O Dependency Inversion Principle (Princípio da inversão da dependência):
  
-      🎯• Dependa de abstrações e não de implementações, a declaração que nossas classes devem depender de interfaces ou classes abstratas
+    🎯• Dependa de abstrações e não de implementações, a declaração que nossas classes devem depender de interfaces ou classes abstratas
       em vez de classes concretas e de funções. Queremos que nossas classes estejam abertas para extensão, por isso reorganizamos nossas 
       dependências para que dependam de interfaces em vez de classes concretas. Nossa classe GerenteDePersistencia depende de 
       PersistenciaDaFatura em vez de classes que implementam aquela interface.
@@ -67,12 +67,12 @@
 
 ### :footprints:O que estamos abordando aqui no SOLID com Java: princípios da programação orientada a objetos:
    
-     • Aprenda conceitos avançados de orientação a objetos;<br/>
-     • Escreva código coeso com Single Responsibility Principle;<br/>
-     • Saiba como lidar com acoplamento;<br/>
-     • Entenda a fundo os ganhos do encapsulamento;<br/>
-     • Domine os princípios de código sólido;<br/>
-     • Veja técnicas e exemplos em Java;<br/>
+     • Aprenda conceitos avançados de orientação a objetos;
+     • Escreva código coeso com Single Responsibility Principle;
+     • Saiba como lidar com acoplamento;
+     • Entenda a fundo os ganhos do encapsulamento;
+     • Domine os princípios de código sólido;
+     • Veja técnicas e exemplos em Java;
      • Tudo isso em um sistema de RH.  
  <hr/>
 
