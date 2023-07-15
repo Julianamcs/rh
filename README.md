@@ -1,7 +1,9 @@
-<div align="center"> <h1><strong>SOLID</strong></h1></div>
+<div align="center">
+    <img src="https://github.com/Julianamcs/rh/blob/main/src/br/com/alura/rh/img/Solid2.png" width="600px"></h1>
+</div>
 <br/>
 
-#PRINCÍPIOS SOLID
+#PRINCÍPIOS DO SOLID
  * Os princípios SOLID são cinco princípios do design de classes orientado a objetos. Eles são um conjunto de regras e práticas recomendadas a serem
    seguidas na criação de uma estrutura de classe. Então cada um desses princípios formam o SOLID que são princípios focados em boas práticas de programação
    e de orientação a objetos.
