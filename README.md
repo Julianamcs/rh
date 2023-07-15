@@ -11,8 +11,8 @@
 
 #### :bookmark_tabs:S - Single Responsibility Principle (Princípio da responsabilidade única):
       
-    🎯• Uma classe deve ter um, e somente um, motivo para mudar. Esse princípio declara que uma classe deve ser especializada em um único
-      assunto e possuir apenas uma responsabilidade dentro do software, como a classe deve ter uma única tarefa ou ação para executar.
+    🎯• Uma classe deve ter um, e somente um, motivo para mudar. Esse princípio declara que uma classe deve ser especializada em um 
+      único assunto e possuir apenas uma responsabilidade dentro do software, como a classe deve ter uma única tarefa ou ação executável.
        
     🚨 Violação do Single Responsibility Principle pode gerar alguns problemas:
       - Falta de coesão: uma classe não deve assumir responsabilidades que não são suas;
@@ -36,8 +36,8 @@
       a classe B for uma subclasse da classe A, devemos poder passar um objeto da classe B para qualquer método que espere um objeto da
       classe A e o método não deverá produzir resultados estranhos, nesse caso.
 
-    🎯• Esse é o comportamento esperado, pois, quando usamos a herança, levamos em conta que a classe filha herda tudo o que a superclasse
-      tem. A classe filha estende o comportamento, mas nunca o reduz.
+    🎯• Esse é o comportamento esperado, pois, quando usamos a herança, levamos em conta que a classe filha herda tudo o que a 
+      superclasse tem. A classe filha estende o comportamento, mas nunca o reduz.
        
     🚨 Violação do Liskov Substitution Principl (LSP):
       - Sobrescrever/implementar um método que não faz nada;
@@ -47,9 +47,9 @@
 #### :bookmark_tabs:I - Interface Segregation Principle (Princípio da segregação da interface):
    
     🎯• Esse princípio basicamente diz que é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica, 
-        ou seja, segregação. Segregação quer dizer manter as coisas separadas. O princípio da segregação da interface tem a ver com 
-        separar as interfaces. O princípio declara que muitas interfaces específicas do cliente são melhores que uma interface de 
-        propósito geral.
+       ou seja, segregação. Segregação quer dizer manter as coisas separadas. O princípio da segregação da interface tem a ver com 
+       separar as interfaces. O princípio declara que muitas interfaces específicas do cliente são melhores que uma interface de 
+       propósito geral.
 
     🚨 Violação do Liskov Substitution Principl (LSP):
       - Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar.
