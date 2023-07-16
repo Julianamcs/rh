@@ -66,4 +66,10 @@ public class Funcionario {
 		this.dataUltimoReajuste = dataUltimoReajuste;
 	}
 
+
+	public void promover(Cargo novoCargo) {
+		// TODO Auto-generated method stub
+		this.cargo = novoCargo;
+	}
+
 }

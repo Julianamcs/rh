@@ -1,12 +1,8 @@
 package br.com.alura.rh.service;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.List;
 
-import br.com.alura.rh.ValidacaoException.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;
 
 public class ReajusteService {
